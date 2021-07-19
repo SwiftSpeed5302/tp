@@ -1,0 +1,185 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Color Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+/* Title & Download Buttons */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 63%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 55px;
+}
+
+.title-img {
+    position: relative;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+    /* z-index: 1; is optional since features is below download buttons in the html code vid 83- 17:45 */
+}
+
+.features-box {
+    padding: 4.5%;
+}
+.features-title {
+    font-size: 1.5;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172 ;
+    color: #ffff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+ 
+.price-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-panel{
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+/* Footer Section */
+
+#footer{
+    margin: 70px 10px;
+}
+
+.footer-icon {
+    padding: 0 2%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+@media (max-width:1020px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image {
+        position:static;
+        transform: rotate(0);
+        margin-top: 15%;
+    }
+
+
+#pricing{
+    text-align: center;
+}
+
+}
